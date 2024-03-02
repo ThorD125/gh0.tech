@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^ls$ /ls.php [L]
+RewriteRule ^img$ - [L]
+RewriteRule img(.*) /img [L]
